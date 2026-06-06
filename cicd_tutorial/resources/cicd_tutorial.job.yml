@@ -28,7 +28,7 @@ resources:
           depends_on:
             - task_key: customer360
           notebook_task:
-            notebook_path: ../src/transaction_summary.ipynd
+            notebook_path: ../src/transaction_summary.ipynb
      
       environments:
         - environment_key: default
